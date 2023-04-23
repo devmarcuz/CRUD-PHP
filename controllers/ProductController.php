@@ -56,7 +56,7 @@ class ProductController {
       if($_SERVER["REQUEST_METHOD"] === "POST") {
         $productData["title"] = $_POST["title"];
         $productData["description"] = $_POST["description"];
-        $productData["imageFile"] = $_POST["image"] ?? null;
+        $productData["imageFile"] = $_FILES["image"] ?? null;
         $productData["price"] = (float)$_POST["price"];
 
         $product = new Product();
