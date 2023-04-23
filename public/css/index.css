@@ -1,0 +1,182 @@
+body {
+  font-family: sans-serif;
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background: #4caf50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+tr:hover {
+  background: #ddd;
+}
+
+.delete-btn,
+.edit-btn {
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.edit-btn {
+  background: #3498db;
+  margin: 0;
+}
+
+.btn-success {
+  background: rgb(0, 207, 0);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 12px 10px;
+  font-family: inherit;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="file"] {
+  box-shadow: none;
+  border: none;
+  padding-top: 15px;
+}
+
+input[type="submit"] {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: #0069d9;
+}
+
+.error-alert {
+  background: #ffc9c9;
+  color: #fa2121;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.error-alert p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.thumb-image {
+  width: 50px;
+}
+
+.form-delete {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.back {
+  background: grey;
+  padding: 10px;
+  width: fit-content;
+}
+
+.back a {
+  color: white;
+}
+
+.update-image {
+  width: 120px;
+}
+
+.form-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-search {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 300px;
+  margin: 0;
+}
+
+.btn-search {
+  background: #0077cc;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.btn-search:hover {
+  background: #005fa3;
+}

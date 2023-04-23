@@ -1,0 +1,16 @@
+{
+  "name": "user/good",
+  "autoload": {
+    "psr-4": {
+      "User\\Good\\": "src/",
+      "app\\": "./"
+    }
+  },
+  "authors": [
+    {
+      "name": "Otunba Marcus",
+      "email": "otunbamarcusademola@gmail.com"
+    }
+  ],
+  "require": {}
+}
